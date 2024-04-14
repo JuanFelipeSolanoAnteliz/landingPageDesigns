@@ -6,3 +6,83 @@
     box-sizing: border-box;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    width: auto;
+    height: auto;
+
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+
+}
+#titulo{
+    justify-content: center;
+}
+
+#divider{
+    width: 25vw;
+}
+#parrafo{
+    font-size: smaller;
+    color: rgba(0, 0, 0, 0.693);
+}
+button{
+    background-color: rgb(235, 173, 57);
+    width: 10vw;
+    border-color:  rgb(235, 173, 57);
+    border-radius: 5px;
+}
+.tarjetas{
+    display: flex;
+    gap: 1%;
+    grid-column: 1/2;
+}
+
+#t1{
+    background-color: rgb(61, 61, 61);
+    color: #FFFF;
+    width: 8vw;
+    height: 10vh;
+    border-radius: 7px;
+}
+#t2{
+    background-color: rgb(61, 61, 61);
+    color: #FFFF;
+    width: 8vw;
+    height: 10vh;
+    border-radius: 7px;
+}
+#t3{    background-color: rgb(61, 61, 61);
+    color: #FFFF;
+    width: 8vw;
+    height: 10vh;
+    border-radius: 7px;
+}
+
+.img{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: auto;
+}
+#guitar{
+    width: 20vw;
+
+    
+}
+
+#star{
+    width: 10vw;
+
+}
+
+#astr{
+    width: 10vw;
+    grid-column: 2/3;
+    
+}
