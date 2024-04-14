@@ -12,9 +12,9 @@ body{
 .txt{
     display:flex;
     flex-direction: column;
-    width: 40vw;
+    width: 30vw;
     align-items: center;
-    margin-left: 30%;
+    margin-left: 33%;
 
 }
 #titulo{
@@ -31,11 +31,11 @@ body{
 }
 
 button{
-    background-color: black;
+    background-color: rgb(43, 43, 43);
     color:#FFFF;
     padding: 1%;
-    border-radius: 17px;
-    width: 8vw;
+    border-radius: 5px;
+    width: 7vw;
     margin-top: 1%;
 }
 
@@ -45,7 +45,7 @@ button{
     grid-template-rows: auto;
     gap: 9%;
     width: 20vw;
-    height: auto;
+    height: 20vh;
     padding-top: 0%;
     padding-left: 0%;
     padding-right: 0%;
@@ -57,6 +57,7 @@ button{
     grid-column: 1/2;
     grid-row: 1/2;
     width: 20vw;
+    padding: 0%;
     
  
 }
