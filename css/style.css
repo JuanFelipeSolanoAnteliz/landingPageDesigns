@@ -1,28 +1,66 @@
 @import url(variables.css);
 
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+
 }
 .colunms{
     display: flex;
     flex-wrap: wrap;
-
-}
-#second{
-    display: flex;
-    flex-wrap: wrap;
+    background-color: #FFFF;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #first{
+    height: 94.5vh;
+    margin-top: 3%;
+}
+#second{
+    margin-top:5%;
+    margin-right: 5%;  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+ 
+}
+.titulo{
+    background: rgb(88, 88, 182);
+    font-size: 4rem;
+    width: 40vw;   
+    font-weight: 3em;
+    
+}
+
+.p1{
+    width: 35vw;
+    font-size: 2rem;
+    font-weight:5;
+    color:rgba(73, 71, 71, 0.863);
 
 }
-#titulo{
+.boton{
+    width: 11vw;
+    height: 6%;
+    border-radius: 15px;
+    border-color: black;
+    color: #FFFF;
+    background: black;
+    font-size: 1.1em;   
+}
+
+#num{
+    width: 40vw;
+    height: 0vh;
+    font-size: 1.5em;
+    font-weight: 500;   
+    margin-top: 10%; 
+    color: rgba(73, 71, 71, 0.863);
 
 }
 
-#p1{
-
+.txt{
+    width: 40vw;   
 }
+
 
