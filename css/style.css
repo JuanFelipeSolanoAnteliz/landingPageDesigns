@@ -5,4 +5,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+.colunms{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#second{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#first{
+
+}
+#titulo{
+
+}
+
+#p1{
+
+}
 
