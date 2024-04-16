@@ -6,3 +6,60 @@
     box-sizing: border-box;
 }
 
+#head{
+    display: flex;
+    flex-direction: column;
+    
+}
+#first{
+    font-size: 4rem;
+    width: 55vw;
+    margin-inline: 3%;
+    margin-top: 3%;
+}
+
+#second{
+    display: flex;
+    flex-direction: row;
+    margin-inline: 3%;
+    margin-top: 2%;
+
+}
+
+#group1{
+    
+    background-color: magenta;
+    width: 30vw;
+padding: 1%;
+}
+
+#group2{
+    background-color: blue;
+    width: 30vw;
+padding: 1%;
+}
+
+#group3{
+    background-color: mediumseagreen 
+    ;width: 30vw;
+padding: 1%;
+}
+
+#group4{
+    background-color: indigo     
+    ;width: 27vw;
+padding: 1%;
+}
+
+#num{
+    font-size: 2.2rem; 
+}
+
+#txt{
+    font-size: 1.5rem;
+    margin-block: 1%;
+}
+
+img {
+    width: 21vw;
+}
