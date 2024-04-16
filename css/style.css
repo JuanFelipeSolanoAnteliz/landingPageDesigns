@@ -19,14 +19,18 @@ body{
     grid-template-rows: auto;
     position: relative;
     left: 5%;
-    margin-top: 5%;
-    width: 38vw;
+    margin-top: 3%;
+    width: 45vw;
 }
 #circle{
     z-index: 1;
     grid-column:1/4;
     grid-row: 1/3;
     margin-top: 4%;
+    width: 40vw;
+    position: relative;
+
+
 }
 
 #sqr1{
@@ -34,7 +38,7 @@ body{
     grid-column: 1/2;
     grid-row: 1/2;
     position: relative;
-    
+    width: 15vw;
 
 }
 #sqr2{
@@ -42,18 +46,25 @@ body{
     grid-column: 3/4;
     grid-row: 2/3;
     position: relative;
-    right: 13%;
+    /* right: %; */
     margin-top: 110%;
+    width: 15vw;
+    position: relative;
+    right: 32.5% ;
+    
 }
 
 #man{
     z-index: 10;
     grid-column: 1/4;
     grid-row: 1/3;
-    margin-top: 9%;
+    margin-top: 13%;
+    padding-left: 4%;
+
+
 }
 #second{
-    background-color: aqua;
+
     position: relative;
     right: -17%;
     width: 45vw;
@@ -61,5 +72,33 @@ body{
 #txt{
     display:flex ;
     flex-direction: column;
-    
+    flex-wrap: nowrap;
+    margin-top: 6%;
+
+}
+
+#title{
+    font-size: 6.5rem;
+    width: 30vw;
+    color:#FFFF;
+    margin-top: 10%;
+}
+#paragraph{
+ 
+    margin-top: 5%;
+    font-size: 2rem;
+    width: 32vw;
+    color:#FFFF;
+}
+
+#btm{
+    background: #E5B94B;
+    margin-top: 7%;
+    width: 13vw;
+    height: 5vw;
+    border-radius: 40px ;
+    font-size: 2rem;
+    font-weight: bold;
+    border-color: #E5B94B;
+    border-bottom: #E5B94B;
 }
