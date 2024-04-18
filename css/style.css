@@ -2,6 +2,7 @@
 
 *{padding: 0%;
     margin: 0%;
+    font-family: "avenir_roman_12";
 
 
 }
@@ -37,12 +38,9 @@
  
 }
 .titulo{
-    background: rgb(88, 88, 182);
     font-size: 4rem;
     width:30vw;   
-    font-weight: 3em;
- 
-    
+    font-weight: 3em;    
 }
 
 .p1{

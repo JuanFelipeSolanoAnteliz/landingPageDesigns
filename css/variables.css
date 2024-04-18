@@ -1,3 +1,7 @@
 :root{
     --color-primario:#ff0000;
 }
+@font-face {
+    font-family: "avenir_roman_12";
+    src: url(../storage/font/avenir/avenir_roman_12.otf);
+}
