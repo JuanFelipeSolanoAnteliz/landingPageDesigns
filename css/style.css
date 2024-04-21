@@ -1,4 +1,8 @@
 @import url(variables.css);
+@font-face {
+    font-family: "Poppins";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
 
 *{
     padding: 0;
@@ -13,6 +17,7 @@
     width: 100vw;
     height: 100vh;
     justify-content: center;
+    font-family: "Poppins";
 }
 
 .first__section{
@@ -41,7 +46,7 @@
     height: 50%;
     justify-content: space-between;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .section__texto p{
@@ -49,7 +54,7 @@
     color: #FFFF;
     width: 90%;
     height: 20%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .section__texto button{
