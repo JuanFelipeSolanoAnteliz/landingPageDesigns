@@ -7,17 +7,16 @@
 }
 
 .main__container{
+    background-color: #232323;
     display: flex;
     flex-direction:row;
-    background-color: aqua;
     width: 100vw;
     height: 100vh;
-    gap: %;
     justify-content: center;
 }
 
 .first__section{
-    background: mediumaquamarine;
+    /* background: mediumaquamarine; */
     display: flex;
     flex-direction: column;
     width: 35%;
@@ -26,7 +25,7 @@
 }
 
 .section__texto{
-    background: yellow;
+    /* background: yellow; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -35,7 +34,7 @@
 }
 
 .section__title{
-    background: red;
+    /* background: red; */
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -46,7 +45,7 @@
 }
 
 .section__texto p{
-    background: green;
+    /* background: green; */
     color: #FFFF;
     width: 90%;
     height: 20%;
@@ -63,14 +62,14 @@
 }
 
 .second__section{
-    background: violet;
+    /* background: violet; */
     width: 45%;
     height: 95%;
     margin-top: 1%;
 }
 
 .section__galery{
-    background-color: beige;
+    /* background-color: beige; */
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
