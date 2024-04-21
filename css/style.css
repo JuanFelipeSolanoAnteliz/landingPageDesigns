@@ -4,6 +4,11 @@
     src: url(../storage/font/Poppins-Regular.ttf);
 }
 
+@font-face {
+    font-family: "Poppins-bold";
+    src: url(../storage/font/Poppins-Bold.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -47,6 +52,7 @@
     justify-content: space-between;
     font-weight: 900;
     font-size: 2.5rem;
+    font-family: "Poppins-bold";
 }
 
 .section__texto p{
@@ -55,6 +61,7 @@
     width: 90%;
     height: 20%;
     font-size: 1.2rem;
+
 }
 
 .section__texto button{
