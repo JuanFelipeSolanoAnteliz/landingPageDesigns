@@ -6,3 +6,94 @@
     box-sizing: border-box;
 }
 
+main{
+    background: magenta;
+    width: 100vw;
+    height: 100vh;
+    display: flex ;
+    flex-direction: row;
+}
+.first__section{
+    background: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 100%;
+    margin-left: 5%;
+}
+.text__section{
+    background: blue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text__section img{
+    background: bisque;
+    width: 10%;
+    height: 10%;
+}
+
+.text__section h1{
+    background-color: aquamarine;
+    width: 95%;
+    height: 30%;
+    font-size: 3rem;
+}
+
+.text__section p {
+    background: red;
+    width: 95%;
+    height: 15%;
+    font-size: 1.5rem;
+}
+
+.text__section .buttom__text {
+    background: chartreuse;
+    width: 95%;
+    height: 9.5%;
+    display: flex;
+    flex-direction: row;
+    gap: 5.7%;
+}
+.text__section .buttom__text button{
+  width: 33%;
+  height: 100%;
+  border-radius: 15px;
+  border-style: none;
+  font-size: 1.2rem;   
+}
+
+.text__section .buttom__text :first-child{
+    background: #050505 ;
+    color: #FFFF;
+}
+
+.text__section .buttom__text :last-child{
+    background: #FFFF;
+    border-color: #0505055e;
+    border-style: solid;
+}
+
+.text__section .vector__texto {
+    background: silver;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 40%;
+}
+
+.text__section .vector__texto img{
+    background: cyan;
+    width: 17%;
+    height: 8%;
+
+}
+
+.text__section .vector__texto p{
+    background: yellow;
+    font-size: 0.5rem;
+    width: 55%;
+    height: 20%;
+}
