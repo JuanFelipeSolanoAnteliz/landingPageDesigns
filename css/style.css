@@ -6,3 +6,64 @@
     box-sizing: border-box;
 }
 
+body{
+    /* background-image: url("../storage/img/unsplash_jSAb1ifwf8Y.svg"); */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:auto;
+
+}
+body img{
+    background-color:#0D0F1B;
+    width: 100vw;
+    height: 100vh;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+}
+
+.main__container{
+    /* background-color: lightsteelblue; */
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    z-index:  5;
+    
+}
+.first__section{
+    background: lightyellow;
+    margin-left: 3%;
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.first__section h1{
+    background: greenyellow;
+    width: 100%;
+    height: 45%;
+    font-size: 4.35rem;
+}
+
+.first__section p {
+    background-color: blueviolet;
+    width: 100%;
+    height: 30%;
+    font-size: 1.4rem;
+}
+.first__section button {
+    background: #FFFF;
+    border-style: solid;
+    width: 39%;
+    height: 12%;
+    border-radius: 10px;
+    
+}
+
+
+
