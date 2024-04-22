@@ -35,7 +35,7 @@ body img{
 }
 .first__section{
     /* background: lightyellow; */
-    margin-left: 3%;
+    margin-left: 5%;
     width: 40%;
     height: 60%;
     display: flex;
@@ -47,15 +47,17 @@ body img{
     /* background: greenyellow; */
     width: 100%;
     height: 45%;
-    font-size: 4.35rem;
+    font-size: 6.5rem;
     color: #FFFF;
+    margin-top: 8%;
 }
+
 
 .first__section p {
     /* background-color: blueviolet; */
     width: 100%;
     height: 30%;
-    font-size: 1.4rem;
+    font-size: 2rem;
     color: #FFFF;
 }
 .first__section button {
@@ -64,6 +66,7 @@ body img{
     width: 39%;
     height: 12%;
     border-radius: 10px;
+    font-size: 1.5rem;
 
 }
 
@@ -79,12 +82,23 @@ body img{
 }
 
 .second__section .cards{
-    background: #ffffff71;
+    background: #ffffff3d;
     width: 30%;
-    height: 100%;
+    height: 80%;
     border-radius: 15px;
     backdrop-filter: blur(5px);
     padding: 2%;
+    color: #FFFF;
+    margin-top: 3%;
+}
+
+.second__section .cards h2{
+    font-size: 2.5rem;
+    
+}
+
+.second__section .cards p{
+    font-size: 2rem;
 }
 
 
