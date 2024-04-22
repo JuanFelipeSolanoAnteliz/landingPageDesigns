@@ -34,7 +34,7 @@ body img{
     
 }
 .first__section{
-    background: lightyellow;
+    /* background: lightyellow; */
     margin-left: 3%;
     width: 40%;
     height: 60%;
@@ -44,26 +44,47 @@ body img{
 }
 
 .first__section h1{
-    background: greenyellow;
+    /* background: greenyellow; */
     width: 100%;
     height: 45%;
     font-size: 4.35rem;
+    color: #FFFF;
 }
 
 .first__section p {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 100%;
     height: 30%;
     font-size: 1.4rem;
+    color: #FFFF;
 }
 .first__section button {
     background: #FFFF;
-    border-style: solid;
+    border-style: none;
     width: 39%;
     height: 12%;
     border-radius: 10px;
+
+}
+
+.second__section{
+    /* background: lightsalmon; */
+    display: flex;
+    width: 90%;
+    height: 35%;
+    margin-left: 5%;
+    gap: 3%;
+    margin-top: 1%;
     
 }
 
+.second__section .cards{
+    background: #ffffff71;
+    width: 30%;
+    height: 100%;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    padding: 2%;
+}
 
 
