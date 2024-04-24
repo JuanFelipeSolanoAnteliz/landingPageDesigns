@@ -1,9 +1,13 @@
 @import url(variables.css);
-
+@font-face {
+    font-family: "Avenir";
+    src: url(../storage/font/AvenirLTStd-Book.otf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Avenir";
 }
 
 #head{
@@ -12,7 +16,7 @@
     
 }
 #first{
-    font-size: 4rem;
+    font-size: 3.5rem;
     width: 55vw;
     margin-inline: 3%;
     margin-top: 3%;
@@ -28,27 +32,27 @@
 
 #group1{
     
-    background-color: magenta;
-    width: 30vw;
-padding: 1%;
+    /* background-color: magenta; */
+    width: 30vw;    
+    padding: 1%;
 }
 
 #group2{
-    background-color: blue;
+    /* background-color: blue; */
     width: 30vw;
-padding: 1%;
+    padding: 1%;
 }
 
 #group3{
-    background-color: mediumseagreen 
-    ;width: 30vw;
-padding: 1%;
+    /* background-color: mediumseagreen; */
+    width: 30vw;
+    padding: 1%;
 }
 
 #group4{
-    background-color: indigo     
-    ;width: 27vw;
-padding: 1%;
+    /* background-color: indigo; */
+    width: 27vw;
+    padding: 1%;
 }
 
 #num{
