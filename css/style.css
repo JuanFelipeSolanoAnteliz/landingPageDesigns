@@ -1,9 +1,14 @@
 @import url(variables.css);
-
+@font-face {
+    font-family: "Work-Sans";
+    src: url(../storage/font/WorkSans-VariableFont_wght.ttf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+    font-family: "Work-Sans";
 }
 
 body{
@@ -86,7 +91,7 @@ body{
 #paragraph{
  
     margin-top: 5%;
-    font-size: 2rem;
+    font-size: 1.7rem;
     width: 32vw;
     color:#FFFF;
 }
@@ -98,7 +103,7 @@ body{
     height: 5vw;
     border-radius: 40px ;
     font-size: 2rem;
-    font-weight: bold;
+    font-family: "Work-Sans";
     border-color: #E5B94B;
     border-bottom: #E5B94B;
 }
