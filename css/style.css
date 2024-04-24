@@ -1,9 +1,23 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: "Zilla-Bold";
+    src: url(../storage/font/ZillaSlab-Bold.ttf);
+}
+@font-face {
+    font-family: "Zilla-Regular" ;
+    src: url(../storage/font/ZillaSlab-Regular.ttf);
+}
+@font-face {
+    font-family: "inter";
+    src: url(../storage/font/Inter-VariableFont_slnt\,wght.ttf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "inter";
+
 }
 
 .grid{
@@ -17,46 +31,59 @@
 }
 .texto{
     
-    margin-top: 3%;
+    margin-top: 2%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     width: 30vw ;
-    height:64vh ;
-    justify-content: space-evenly;
+    height:74vh ;
+    /* justify-content: space-evenly; */
+    gap: 2%;
     grid-column: 1/2;
     grid-row: 1/2;
+    box-sizing: border-box;
+    /* background-color: aquamarine; */
+
 }
 #titulo{
     align-items: flex-start;
-    font-size: 248%;
-    width: 12vw;   
+    font-size: 4rem;
+    width: 20vw;
+    font-family: "Zilla-Regular";  
 }
 
 #heart{
-    color:rgb(235, 173, 57) ;
+    color:#E3B635;
+    font-family: "Zilla-Bold";
 }
 #ritmo{
-    color:rgb(235, 173, 57) ;
+    color:#E3B635;
+    font-family: "Zilla-Bold";
 }
 #divider{
-    width: 32vw;
+    width: 30vw;
     margin-top: 3%;
 }
 #parrafo{
-    margin-top: 3%;
-    font-size: 90%;
+    /* background: red; */
+    justify-content: start;
+    margin-top: 0%;
+    font-size: 1.7rem;
     color: rgba(0, 0, 0, 0.693);
-    width: 22vw;
+    width: 29vw;
+    height: 18vh;
+    font-family: "inter";
  
 }
-button{
-    background-color: rgb(227, 181, 94);
-    width: 9vw;
-    height: 6vh;
-    border-color:  rgb(230, 175, 73);
-    border-radius: 25px;
-    margin-top: -3%;
+#btm{
+    background-color: #E3B635;
+    width: 11vw;
+    height: 8vh;
+    border-style: none;
+    border-radius: 50px;
+    margin-top: 0%;
+    font-size: 1.2rem;
+    font-family: "inter";
 
 }
 .tarjetas{
@@ -66,9 +93,10 @@ button{
     grid-column: 1/2;
     grid-row: 1/2;
     margin-top:51% ;
-    width: 50vw;
+    width: 45vw;
+    height: 45vh;
     flex-direction: row;
-    gap: 2%;
+    gap: 3%;
 }
 
 #music{
@@ -77,12 +105,12 @@ button{
 }
 #num{
     font-weight: bolder;
-    font-size: 2vw;
+    font-size: 2.5vh;
     margin-top: 8%;
 }
 
 #cont{
-    font-size: 1.7vh;
+    font-size: 1.3vh;
     
 }
 
