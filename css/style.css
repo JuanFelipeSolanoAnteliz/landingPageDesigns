@@ -44,14 +44,14 @@ main{
     /* background-color: aquamarine; */
     width: 95%;
     height: 30%;
-    font-size: 3rem;
+    font-size: 4.5rem;
 }
 
 .text__section p {
     /* background: red; */
-    width: 95%;
+    width: 90%;
     height: 15%;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-family: "Work-Sans";   
 }
 
