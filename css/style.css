@@ -1,9 +1,27 @@
 @import url(variables.css);
+@font-face {
+    font-family: "Lato-Bold";
+    src: url(../storage/font/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "Lato-Black";
+    src: url(../storage/font/Lato-Black.ttf);
+}
+@font-face {
+    font-family: "Lato-Regular";
+    src: url(../storage/font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Lato-Light";
+    src: url(../storage/font/Lato-Light.ttf);
+}
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Lato-Regular";
 }
 
 body{
@@ -37,7 +55,7 @@ body img{
     /* background: lightyellow; */
     margin-left: 5%;
     width: 40%;
-    height: 60%;
+    height: 65%;
     display: flex;
     flex-direction: column;
     gap: 5%;
@@ -50,6 +68,7 @@ body img{
     font-size: 6.5rem;
     color: #FFFF;
     margin-top: 8%;
+    font-family: "Lato-Black";
 }
 
 
@@ -63,7 +82,7 @@ body img{
 .first__section button {
     background: #FFFF;
     border-style: none;
-    width: 39%;
+    width: 29%;
     height: 12%;
     border-radius: 10px;
     font-size: 1.5rem;
@@ -82,23 +101,27 @@ body img{
 }
 
 .second__section .cards{
+   
     background: #ffffff3d;
     width: 30%;
     height: 80%;
     border-radius: 15px;
     backdrop-filter: blur(5px);
-    padding: 2%;
+    padding-inline: 3%;
+    padding-block: 2%;
     color: #FFFF;
     margin-top: 3%;
 }
 
 .second__section .cards h2{
-    font-size: 2.5rem;
-    
+    font-size: 2.3rem;
+    font-family: "Lato-Bold";
 }
 
 .second__section .cards p{
-    font-size: 2rem;
+    margin-top: 3%;
+    font-size: 1.7rem;
+    font-family: "Lato-Light";
 }
 
 
