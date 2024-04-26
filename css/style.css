@@ -1,8 +1,116 @@
 @import url(variables.css);
+@font-face {
+    font-family: "bold";
+    src: url(../storage/font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "semi-bold";
+    src: url(../storage/font/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "medium";
+    src: url(../storage/font/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(../storage/font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "light";
+    src: url(../storage/font/Montserrat-Light.ttf);
+}
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* display: flex;
+    justify-content: center; */
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: no-repeat;
+    display: flex;
+    /* background-image: url(../storage/img/background_yoga.svg); */
+    justify-content: center;
+    z-index: 1;
+
+}
+.main{
+    width: 73.3%;
+    height: 100%;
+    position: absolute;
+    /* background: rgb(245, 245, 220); */
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.first__section{
+    background-color: #0000001f;
+    width: 40%;
+    height: 60%;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-inline: 2%;
+    padding-block-start: 4%;
+    margin-top: 14%;
+    margin-left: 5%;
+    gap: 2%;
+}
+
+.first__section p:first-child{
+    color: #FFFF;
+    font-size: 1.2rem;
+    font-family: "regular";
+}
+
+.first__section h1{
+    color: #FFFF;
+    font-size: 4.2em;
+    font-family: "semi-bold";
+    /* background-color: red;  */
+    width: 100%;
+    height: 35%;
+
+}
+
+.first__section p:nth-child(3){
+    color: #FFFF;
+    font-size: 1.4rem;
+    font-family: "regular";
+    /* background-color: blue; */
+    width: 100%;
+    height: 30%;
+}
+
+.first__section button{
+    background-color: #519BFD;
+    width: 45%;
+    height: 12%;
+    border-style: none;
+    border-radius: 35px;
+    color: #FFFF;
+    font-size: 1.3rem;
+    font-family: "medium";
+}
+
+.second__section{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    margin-top: 2%;
+    margin-left:30% ;
 }
 
