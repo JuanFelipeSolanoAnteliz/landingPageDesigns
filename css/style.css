@@ -1,8 +1,159 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: "new-roman";
+    src: url(../storage/font/times\ new\ roman.ttf);
+}
+
+@font-face {
+    font-family: "new-roman-bold";
+    src: url(../storage/font/times\ new\ roman\ bold.ttf);
+}
+
+@font-face {
+    font-family: "helvetica";
+    src: url(../storage/font/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: "helvetica-bold";
+    src: url(../storage/font/Helvetica-Bold.ttf);
+}
+
+@font-face {
+    font-family: "helvetica-light";
+    src: url(../storage/font/Helvetica\ Light\ Condensed.otf);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+.first__section{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 80%;
+    margin-top: 7%;
+    margin-left: 4%;
+    gap: 1%;
+}
+
+.first__section div{
+    position: relative;
+    /* background: blue; */
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+}
+
+.first__section div p:first-child{
+    /* background-color: violet; */
+    width: 100%;
+    height: 100%;
+    font-family: "new-roman";
+    font-size: 4.9rem;
+}
+
+.first__section div img{
+    /* background-color: green; */
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    right:0;
+
+}
+
+.first__section img{
+    width: 100%;
+    height: 36%;
+}
+
+.first__section p:last-child{
+    /* background:green ; */
+    width: 100%;
+    height: 15%;
+    font-family: "helvetica-light";
+    font-size: 1.57rem;
+
+}
+
+.second__section{
+    /* background: lightblue;   */
+    width: 70%;
+    height: 80%;
+    margin-top: 7%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 2%;
+}
+
+.second__section div{
+    /* background: violet; */
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.second__section div p{
+    font-size: 1rem;
+    margin-left: 4%;
+}
+
+.second__section img {
+    /* overflow: hidden; */
+    width: 80%;
+    height: 80%;
+}
+.second__section div div{
+    /* background: greenyellow; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    width: 72%;
+    height: 17.5%;
+    gap: 5%;
+}
+
+.second__section div div h2{
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center; */
+    font-size: 3.5rem;
+    /* background: blue; */
+    width: 17%;
+    padding-left: 3%;
+    font-family: "new-roman";
+    color: #333333;
+    margin-top: 1%;
+}
+
+.second__section div div p{
+    /* background: magenta; */
+    width: 75%;
+    font-family: "helvetica-light";
+    font-size: 1.5rem;
+    margin-top: 1%;
+}
